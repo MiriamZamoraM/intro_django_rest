@@ -36,6 +36,8 @@ Recuerda que el entorno virtual hará que las librerías, paquetes y/o herramien
 
         > code .
 
+[Proyecto-DRF](https://github.com/MiriamZamoraM/library.git)
+
 8. Recuerda agregar la librería instalada en **INSTALED_APPS**
 ![Apps](image.png)
 
