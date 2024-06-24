@@ -38,7 +38,7 @@ Recuerda que el entorno virtual hará que las librerías, paquetes y/o herramien
 
 [Proyecto-DRF](https://github.com/MiriamZamoraM/library.git)
 
-8. Recuerda agregar la librería instalada en **INSTALED_APPS**
+8. Recuerda agregar la librería instalada en **INSTALED_APPS** <br>
 ![Apps](image.png)
 
 9. Ahora agregaremos un comentario con la siguiente línea *# LOCAL APPS* esto para las apps que vamos a crear, en este caso solo una
@@ -58,7 +58,7 @@ Recuerda que el entorno virtual hará que las librerías, paquetes y/o herramien
 
         > django-admin startapp library
 
-14. En VSCode veremos una carpeta nueva con ese nombre 
+14. En VSCode veremos una carpeta nueva con ese nombre <br>
 ![librería](image-2.png)
 
 15. Ahora abrimos pgadmin, y desde nuestro servidor de bases de datos creamos una base de datos, el nombre es a elección y preferencia:
@@ -194,7 +194,7 @@ urlpatterns = [
 ]
 ```
 
-23. Vamos de nuevo al archivo `settings.py` y recuerdas el comentario del paso 9, bueno abajo del comentario escribimos el nombre de nuestra app, en este caso **library** y se verá algo así:
+23. Vamos de nuevo al archivo `settings.py` y recuerdas el comentario del paso 9, bueno abajo del comentario escribimos el nombre de nuestra app, en este caso **library** y se verá algo así: <br>
 ![app-settings](image-5.png)
 
 24. Con todos estos pasos hechos, guarda cada cambio en su respectivo archivo y haz un check para verificar que no haya errores:
@@ -211,7 +211,7 @@ En caso de errores escribeme directo y te ayudo a resolverlos
 ![migrations](image-8.png)
 ![tabla-libros](image-9.png)
 
-27. Si haz llegado hasta aquí, **FELICIDAADES** has creado tu primera API con Backend Django REST Framework, ahora si puedes levantar el servidor y desde Postman hacer tus consultas:
+27. Si haz llegado hasta aquí, **FELICIDADES** has creado tu primera API con Backend Django REST Framework, ahora si puedes levantar el servidor y desde Postman hacer tus consultas:
 
         > python manage.py runserver
 
